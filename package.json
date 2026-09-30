@@ -1,0 +1,25 @@
+{
+  "name": "ai-agent-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "mcp": "node mcp-server.js",
+    "mcp:client": "node mcp-client.js",
+    "atlassian:mcp": "node atlassian-mcp-client.js",
+    "jira:agent": "node jira-dashboard-agent.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/client": "^2.0.0",
+    "@modelcontextprotocol/server": "^2.0.0",
+    "dotenv": "^17.4.2",
+    "openai": "^7.10.0",
+    "zod": "^4.5.4"
+  },
+  "type": "module"
+}
